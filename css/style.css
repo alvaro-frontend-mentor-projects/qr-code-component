@@ -30,12 +30,18 @@ body {
     padding: 1rem;
     border-radius: 15px;
     gap: 1.5rem;
+    align-items: center;
+    
+    
     
     
 }
 
 img {
     border-radius: 10px;
+    height: 19rem;
+    width: 19rem;
+    
     
 }
 
