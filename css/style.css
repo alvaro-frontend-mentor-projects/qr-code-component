@@ -13,16 +13,18 @@ body {
     font-size: 15px;
     font-family: 'Outfit', 'Arial';
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
 
 .main-container {
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    
     
 }
 
@@ -32,13 +34,30 @@ body {
     background-color: var(--white);
     width: 300px;
     padding: 1rem;
-    border-radius: 10px;
-   
+    border-radius: 15px;
+    gap: 1.5rem;
     
-
+    
 }
 
 img {
     border-radius: 10px;
     height: 100%;
+}
+
+.p-1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.p-2 {
+    padding: 0 15px 0 15px;
+    text-align: center;
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    margin: 0 0 20px 0;
 }
